@@ -1,0 +1,3 @@
+transformers==4.37.2
+tqdm==4.66.2
+numpy==1.26.3

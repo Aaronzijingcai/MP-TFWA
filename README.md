@@ -10,6 +10,8 @@
 
  [![Github](https://img.shields.io/badge/github-Aaronzijingcai/MPTFWA-pink.svg?logo=github)](https://github.com/Aaronzijingcai/MP-TFWA)
 
+We have designed a novel neural network based on self-attention mechanism, named MP-TFWA. It employs a dual form to simultaneously extract semantic information from both token-level and feature-level perspectives. Additionally, we consider the MRC framework and PL framework to further unleash the potential of pre-trained language models. Ultimately, we achieved state-of-the-art performance on eight classic short-text classification datasets.
+
 ![total](figure/total.png)
 
 ![total](figure/tfwaf.png)
@@ -39,12 +41,12 @@ The folder "data" contains the TREC dataset for trainging and testing. As for th
 
 The code is based on Bert-base. If you want to verify the effect of MP-TFWA combined with different PLM, please pay attention to modify the special token mark and corresponding id in data.py.
 
-| Model   | Mark1 | Mark2  | ID            |
-| ------- | ----- | ------ | ------------- |
-| Bert    | [SEP] | [MASK] | [MASK]==103   |
-| Albert  | [SEP] | [MASK] | [MASK]==4     |
-| Roberta | </S>  | <mask> | <mask>==50264 |
-| Electra | [SEP] | [MASK] | [MASK]==103   |
+| Model   | Mark1 | Mark2   | ID             |
+| ------- | ----- | ------- | -------------- |
+| Bert    | [SEP] | [MASK]  | [MASK]==103    |
+| Albert  | [SEP] | [MASK]  | [MASK]==4      |
+| Roberta | \</S> | \<mask> | \<mask>==50264 |
+| Electra | [SEP] | [MASK]  | [MASK]==103    |
 
 You can run the command. 
 

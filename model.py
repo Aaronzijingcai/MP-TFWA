@@ -163,12 +163,7 @@ class MP_TFWA(nn.Module):
         pl_TFW = torch.bmm(pl_TVSA_W.permute(0, 2, 1), pl_FVSA_W)
         pl_TFWA = self.plWoven(torch.reshape(pl_TFW, [pl_TFW.shape[0], 10000]))
 
-        print(mrc_CLS.size())
-        print(co_CLS.size())
-        print(MASK.size())
-        print(mrc_TFWA.size())
-        print(co_TFWA.size())
-        print(pl_TFWA.sieze())
+
         outputs = torch.cat((mrc_CLS, co_CLS, MASK, mrc_TFWA, co_TFWA, pl_TFWA), 1)
         predicts = self.fc(outputs)
 

@@ -45,7 +45,7 @@ The code is based on Bert-base. If you want to verify the effect of MP-TFWA comb
 | ------- | ----- | ------- | -------------- |
 | Bert    | [SEP] | [MASK]  | [MASK]==103    |
 | Albert  | [SEP] | [MASK]  | [MASK]==4      |
-| Roberta | \</S> | \<mask> | \<mask>==50264 |
+| Roberta | \</s> | \<mask> | \<mask>==50264 |
 | Electra | [SEP] | [MASK]  | [MASK]==103    |
 
 You can run the command. 

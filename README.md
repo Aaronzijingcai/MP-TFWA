@@ -1,4 +1,4 @@
-# MP-TFWAF: Multi-schema powered token-feature woven attention network for short text classification
+# MP-TFWA: Multi-schema powered token-feature woven attention network for short text classification
 
 
 
@@ -58,14 +58,17 @@ python main.py
 
 Please cite our paper by:
 
-```bash
-@misc{czj2024mp-tfwa,
-      title={MP-TFWAF: Multi-schema powered token-feature woven attention network for short text classification}, 
-      author={Zijing Cai and Hua Zhang and Peiqian Zhan and Xiaohui Jia and Yongjian Yan and Xiawen Song and Xie Bo},
-      year={2024},
-      eprint={**},
-      archivePrefix={**},
-      primaryClass={**}
+```
+@misc{cai-2024-mp-tfwa-global,
+      title = "MP-TFWAF: Multi-schema powered token-feature woven attention network for short text classification ", 
+      author =" Zijing Cai and Hua Zhang and Peiqian Zhan and Xiaohui Jia and Yongjian Yan and Xiawen Song and Bo Xie",
+      booktitle = "**",
+      year = "**",
+      month = "**",
+      address = "**",
+      publisher = "**",
+      url = "**",
+      pages = "**",
 }
 ```
 

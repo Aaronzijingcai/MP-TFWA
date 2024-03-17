@@ -60,7 +60,7 @@ Please cite our paper by:
 
 ```
 @misc{cai-2024-mp-tfwa-global,
-      title = "MP-TFWAF: Multi-schema powered token-feature woven attention network for short text classification ", 
+      title = "MP-TFWA: Multi-schema powered token-feature woven attention network for short text classification ", 
       author =" Zijing Cai and Hua Zhang and Peiqian Zhan and Xiaohui Jia and Yongjian Yan and Xiawen Song and Bo Xie",
       booktitle = "**",
       year = "**",

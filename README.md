@@ -2,9 +2,11 @@
 
 
 
-**************************** **Updates** ****************************
+## News
 
-* 2023/07/27: We released the first version of our paper. 
+* [10 July 2024]: Our paper has been accepted to PR 2024.
+* [15 March 2024]: We released the code for training and inference.
+* [2 August 2023]: We released the first version of our paper. 
 
 ## Overview
 

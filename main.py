@@ -31,12 +31,12 @@ class Instructor:
             self.co_model = AutoModel.from_pretrained('albert-base-v2')
             self.pl_model = AutoModel.from_pretrained('albert-base-v2')
         elif args.model_name == 'roberta-base':
-            self.tokenizer = AutoTokenizer.from_pretrained('roberta-base',add_prefix_space=True)
+            self.tokenizer = AutoTokenizer.from_pretrained('roberta-base', add_prefix_space=True)
             self.mrc_model = AutoModel.from_pretrained('roberta-base')
             self.co_model = AutoModel.from_pretrained('roberta-base')
             self.pl_model = AutoModel.from_pretrained('roberta-base')
         elif args.model_name == 'electra-base-discriminator':
-            self.tokenizer = AutoTokenizer.from_pretrained('electra-base-discriminator',add_prefix_space=True)
+            self.tokenizer = AutoTokenizer.from_pretrained('electra-base-discriminator', add_prefix_space=True)
             self.mrc_model = AutoModel.from_pretrained('electra-base-discriminator')
             self.co_model = AutoModel.from_pretrained('electra-base-discriminator')
             self.pl_model = AutoModel.from_pretrained('electra-base-discriminator')

@@ -20,9 +20,9 @@ We have designed a novel neural network based on self-attention mechanism, named
 
 ## Usage
 
-## ⚙️Train MP-TFWAF
+## ⚙️Train MP-TFWA
 
-In the following section, we describe how to train a MP-TFWAF model by using our code.
+In the following section, we describe how to train a MP-TFWA model by using our code.
 
 ### Setups
 
@@ -61,16 +61,16 @@ python main.py
 Please cite our paper by:
 
 ```
-@misc{cai-2024-mp-tfwa-global,
-      title = "MP-TFWA: Multi-schema powered token-feature woven attention network for short text classification ", 
-      author =" Zijing Cai and Hua Zhang and Peiqian Zhan and Xiaohui Jia and Yongjian Yan and Xiawen Song and Bo Xie",
-      booktitle = "**",
-      year = "**",
-      month = "**",
-      address = "**",
-      publisher = "**",
-      url = "**",
-      pages = "**",
+@article{CAI2024110782,
+    title = {Multi-schema prompting powered token-feature woven attention network for short text classification},
+    journal = {Pattern Recognition},
+    volume = {156},
+    pages = {110782},
+    year = {2024},
+    issn = {0031-3203},
+    doi = {https://doi.org/10.1016/j.patcog.2024.110782},
+    url = {https://www.sciencedirect.com/science/article/pii/S0031320324005338},
+    author = {Zijing Cai and Hua Zhang and Peiqian Zhan and Xiaohui Jia and Yongjian Yan and Xiawen Song and Bo Xie}
 }
 ```
 

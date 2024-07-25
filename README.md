@@ -4,9 +4,9 @@
 
 ## News
 
-* [10 July 2024]: Our paper has been accepted to PR 2024.
-* [15 March 2024]: We released the code for training and inference.
-* [2 August 2023]: We released the first version of our paper. 
+* [2024-07-10]: Our paper has been accepted to PR 2024.
+* [2024-03-15]: We released the code for training and inference.
+* [2023-08-02]: We released the first version of our paper. 
 
 ## Overview
 
@@ -58,7 +58,7 @@ python main.py
 
 ## 📝Citation
 
-Please cite our paper by:
+If this work is helpful, please kindly cite as:
 
 ```
 @article{CAI2024110782,
@@ -74,3 +74,5 @@ Please cite our paper by:
 }
 ```
 
+## Star History
+![Star History Chart](https://api.star-history.com/svg?repos=Aaronzijingcai/MP-TFWA&type=Date)
